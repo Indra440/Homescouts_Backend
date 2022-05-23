@@ -1,0 +1,34 @@
+{
+    "name" : "YOUR-CHROME-EXTENSION-DEV",
+    "url" : "stage-portal.yourchromeextension.com/",
+    "api-token":"SECRET",
+    "database" : {
+        "Mysql" : {
+            "host"     : "localhost",
+            "dialect"  : "mysql",
+            "db_name"  : "yourchromeextension",
+            "username" : "root",
+            "password" : "toor"
+        },
+        "mongodb":{
+            "host":"localhost",
+            "db_name":"yourchromeextension",
+            "port":"27017"
+        }
+    },
+    "emailConfig" : {
+        "provider" : "gmail",
+        "email" : "work@tier5.us",
+        "password" : "2_@LsRmg9=T<S9Z="
+    },
+    "AWS" :{
+        "S3"    :{
+            "AWS_IAM_USER_KEY"      :"AKIAZYBKF4SP6DA4BE5L",
+            "AWS_IAM_USER_SECRET"   :"xtHWFpr8A+98qIpxkySqgWDRT8xjE0b9GGaSRjEK",
+            "AWS_BUCKET_NAME"       :"yourchromeextension",
+            "REGION":"us-east-1"
+        }
+    },
+    "bdpassword":"!#thiadhikethisa#!",
+    "image-max-size":50000000
+}

@@ -1,0 +1,8 @@
+{
+    "name" : "YOUR-CHROME_EXTENSION-DEFAULT",
+    "extensionBranch" : "extension",
+    "repo" : "git@github.com:tier5development/yourchromeextension.git",
+    "repoName": "yourchromeextension",
+    "publicVapidKey": "BGOOxW30_yNrqWxV4er1q3BKtMaRLDTdlHbk5GzsZYBJ5EQNRbzbdkfp2JsvC17yu2UEn_asiVcdRZBxSNWm68I",
+    "privateVapidKey": "uDA0osQI3kEcy0iYuTcviW46aaHP4UoFqA8T1uBjOAI"
+}
