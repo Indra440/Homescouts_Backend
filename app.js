@@ -53,11 +53,11 @@ app.disable("x-powered-by");
 app.get("/*", function (req, res) {
   res.sendFile(path.join(__dirname + "/public/build/index.html"));
 });
-const port = process.env.PORT || 6969;
-app.set("port", port);
+const PORT = process.env.PORT || 6969;
+// app.set("PORT", PORT);
 const server = http.createServer(app);
-server.listen(port, function (err, data) {
-  console.log(`Your-Chrome-Extension running on port ${port}`);
+server.listen(PORT, function (err, data) {
+  console.log(`Your-Chrome-Extension running on PORT ${PORT}`);
 });
 
 module.exports = app;
