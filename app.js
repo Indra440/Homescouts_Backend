@@ -53,7 +53,7 @@ app.disable("x-powered-by");
 app.get("/*", function (req, res) {
   res.sendFile(path.join(__dirname + "/public/build/index.html"));
 });
-const PORT = process.env.PORT || 6969;
+const PORT = process.env.PORT || 3000;
 // app.set("PORT", PORT);
 const server = http.createServer(app);
 server.listen(PORT, function (err, data) {
